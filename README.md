@@ -55,7 +55,7 @@ There are some disadvantages to using vitrual machines. They allocate a fix amou
 Cloud Native not only allows you to sign up and use it with your existing program, it also affects the design, implemenatation, deployment, and operating your application. Now how can we ultilze cloud computing? We can use _containers_ for that. Package your software with everything you need to execute it into one executble package. It allows the containers to be ***independent*** of the enviroment and make it highly portable. It allows you to add and remove instances of the application. Containers contain everything that you need. Containers are ***built as a system of microservices***. We can implement a system of multiple smaller applications. What are the benefits of this? 
 
 
-  1. Functinality
+  1. Functionality
       - Everything working together allows fast and easy access. It's easier to understand smaller applications that          have one functionality. This speeds up development and it's easier to adapt.
   2. Scaling is more efficient 
       - Containers are used to allow efficiently. Starting another container to handles the increase of user requests.         This is called _horizontal scaling_. 
